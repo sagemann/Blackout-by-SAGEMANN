@@ -1,0 +1,334 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding-top: 30px;
+    background: url('images/sunrise-seascape-horizon-ocean-pink-sky-blue-morning-light-4050x2700-1340.jpg')  no-repeat  50%;
+	color: #000000;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+a {
+	color: #000000;text-decoration-color: #cf9f00;
+	text-decoration: solid;
+}
+
+a:hover {
+	color: #5aeee2;text-decoration-color: #cf9f00;
+	transform: scale(1.1);
+    transition: 0.7s ease-in-out;display:-webkit-inline-flex;position: relative;
+    justify-content: center;
+}
+
+
+span {
+	display: none;color: #192bcf;
+}
+
+img {
+	border: none;
+}
+
+ul {
+	list-style: decimal-leading-zero;color: #380779;
+}
+
+li {
+	list-style-type: none;color: #9b0404;
+}
+
+p {
+	margin: 20px -10px 20px;color: #ffffff;
+	text-align: justify;
+	line-height: 15px;
+}
+
+.clearthis {
+	margin : 10px;
+	height : 10px;
+	clear : both;
+	float : none;
+	font-size : 10px;
+	line-height : 10px;
+	overflow : hidden;
+	visibility: visible;color: #4b0b75;box-shadow: 0 0 50px #7a06c7;
+}
+
+
+#container {
+	margin:  auto;
+	width: 650px;
+	text-align: left;
+	backdrop-filter:  blur(10px);
+	border:  0px solid;border-radius: 5%;box-shadow: 0 0 100px #af14d6;
+
+ 
+	width:790px;
+}
+
+#container {
+	padding: 0px;
+}
+
+#body_image {
+	margin: 40px 0px 0px -10px;
+	height: 431px;
+	width: 650px;
+	text-align: left;
+	background: url('images/video-game.png')  no-repeat 100% 0px;border-radius: 100px;
+	z-index: 1;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+
+/* Page Header */
+
+#page_header h1 {
+	width: 200px;
+	height: 0px;
+	
+float: left;
+}
+
+#page_header h3 {
+	width: 0px;
+	height: 40px;
+	float: left;
+}
+
+
+/* Page Menu */
+
+#page_menu {
+	margin-bottom: 100px;
+	width: 800px;
+	height: 50px;
+	
+}
+
+#page_menu li {
+	padding: 0px 22px 0px 12px;
+	height: 40px;
+    
+	float: left;
+}
+
+#page_menu li a {
+	width: 150px;
+	height: 30px;
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 2;
+	position: absolute;
+}
+
+#page_menu .online a {
+	background: url('images/images.png')transparent no-repeat 55% 0px;
+}
+
+#page_menu .downloads a {
+	background: url('images/website_name.png') transparent no-repeat 70% 2px;
+}
+
+
+#page_menu .community a {
+	background: url('images/recent\ header.png') transparent no-repeat 70% 3px;
+}
+
+
+#page_menu .about a {
+	background: url('images/reviews_header.png')transparent no-repeat 50% 0px;
+}
+
+
+
+
+#page_menu li span {
+	width: 163.5px;
+	height: 50px;
+	display: block;
+	overflow: hidden;
+}
+
+#page_menu li a span {
+	display: none;
+}
+
+
+/* Page Forms */
+
+#page_forms {
+
+	float: left;
+}
+
+#page_forms input {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #ffffff;
+	background-color: #C3C3C3;
+	border: #fffafa 0px solid;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#page_forms input.button {
+	padding: 0px;
+	
+	
+}
+
+
+/* User Login */
+
+#userlogin {
+	height: 300px;
+	width: 200px;
+	overflow: hidden;
+}
+
+/* Site Search */
+
+#sitesearch form {margin: 50px 10px 40px;}
+
+
+#sitesearch input {
+	padding: 4px -1px;
+	width: 150px;
+	float: left;
+	font-size: 12px;
+}
+
+#sitesearch input.button {
+	width: 24px;
+	height: 20px;
+	float: right;
+}
+
+
+/* Content Body */
+
+#content_body {
+	clear: left;
+	float: left;
+	width: 780px;
+}
+
+
+#clearthis_contentbody {
+	width: 774px;
+	margin : 100px;
+	height : 5px;
+	clear : both;
+	float : both;
+	font-size : 20px;
+	line-height : 0px;
+	overflow : hidden;
+}
+
+
+
+
+.content_entry {
+	padding: 23px 0px 0px;
+}
+
+.content_entry .thumbnail {
+	margin: 7px 0px 15px;
+	float: left;
+	
+}
+
+.content_entry .thumbnail img {
+	float: left;
+}
+
+.content_entry .entry_text {
+	padding-right: 20px;
+	width: 210px;
+	float: right;
+	text-align: justify;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* Recent Reviews */
+
+#reviews_box {
+	padding: 15px 10px;
+	float: left;
+}
+
+#reviews {
+	width: 350px;
+}
+
+#reviews .content_header h2 {
+	width: 142px;
+	height: 20px;
+	background: url('images/header_welcome.gif')transparent no-repeat 0px -3px;
+}
+
+#reviews .content_entry {
+	width: 378px;
+}
+
+
+/* Play Now */
+
+#playnow_box {
+	padding: 15px 12px;
+	float: right;
+}
+
+#playnow {
+	width: 351px;
+}
+
+#playnow .content_header h2 {
+	width: 100px;
+	height: 20px;
+	
+}
+
+#playnow .content_entry {
+	width: 351px;
+}
+
+#playnow .content_entry .thumbnail {
+	margin-left: 3px;
+}
+
+#playnow .content_entry .entry_text {
+	padding-right: 10px;
+	width: 200px;text-decoration-color: #cf9f00;
+}
+
+
+/* Page Footer */
+
+#page_footer {
+	padding: 15px 10px;
+	color: #e5e0e0;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 0px;text-decoration-color: #cf9f00;
+}
+
+#page_footer a {
+	color: #ff4f7b;
+	text-decoration: solid;text-decoration-color: #cf9f00;
+}
+
+#page_footer a:hover {
+	color: #9E64FA;
+}

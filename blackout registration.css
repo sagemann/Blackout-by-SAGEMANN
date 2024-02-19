@@ -1,0 +1,141 @@
+* {
+    margin: 4;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-decoration: solid;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; display: flex;
+    justify-content: center;
+    min-height: 70vh;
+    background: url('images/996241381-68e3d43ab562fd208337dfeece8b9a9c04ec837c83fb0298b7e29120cd91c08f-d.webp')  repeat 53% 60px;;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 500px;
+    height: 800px;
+    background:transparent;
+    border: 0px solid #ac0ecc;
+    backdrop-filter:  blur(50px);
+    box-shadow: 0 0 50px #009999;
+    color: #bdb8b8; display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.wrapper h1 {
+font-size: 36px; display: flex;
+justify-content: center;
+text-align: center;text-decoration: none;
+}
+    img {
+        border-radius: 30px;
+    }
+a:hover {
+	color: #5aeee2;text-decoration-color: #cf9f00;
+	transform: scale(1.1);
+    transition: 0.7s ease-in-out;display:-webkit-inline-flex;position: relative;
+    justify-content: center; -webkit-box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.55);
+    box-shadow: 0px 7px 0px 2px rgba(0,0,0,0.55);border-radius: 30px;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;text-decoration: none;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+width: 100%;
+height: 100%;display: flex;
+justify-content: center;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgba(255,255,255,.2);
+border-radius: 40px;
+font-size: 16px;
+color: #fff;
+padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #ffffff;display: flex;
+    justify-content: center;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);transform: scale(1.1);
+    transition: .7s ease-in-out;
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;transform: scale(1.1);
+    transition: .7s ease-in-out;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;transform: scale(1.1);
+    transition: .7s ease-in-out;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #c52525;transform: scale(1.1);
+    transition: .7s ease-in-out;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;transform: scale(1.1);
+    transition: .7s ease-in-out;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 0px;
+    background: transparent;
+    border: none;
+    outline: none;
+    backdrop-filter:  blur(100px);box-shadow: 0 0 50px #006999;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;transform: scale(1.1);
+    transition: .7s ease-in-out;
+    font-weight:10px;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;transform: scale(1.1);
+    transition: .7s ease-in-out;
+    margin-top: 20px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;transform: scale(1.1);
+    transition: .7s ease-in-out;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+text-decoration: solid;color: #e62c2c;transform: scale(1.1);
+transition: .7s ease-in-out; display: flex;
+justify-content: center;
+}
